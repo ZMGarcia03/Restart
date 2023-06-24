@@ -1,0 +1,8 @@
+# Import the os module
+import os
+
+# Define the command for restarting the computer after 10 seconds and force closing any applications
+command = "shutdown /r /t 10 /f"
+
+# Execute the command
+os.system(command)
