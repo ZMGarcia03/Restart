@@ -1,0 +1,8 @@
+# Import the os module
+import os
+
+# Define the command for restarting the computer
+command = "shutdown /r"
+
+# Execute the command
+os.system(command)
